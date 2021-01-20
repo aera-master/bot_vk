@@ -1,0 +1,46 @@
+{
+  "one_time": false,
+  "buttons": [
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "как дела?"
+        },
+        "color": "secondary"
+      }
+    ],
+    [
+      {
+        "action": {
+          "type": "text",
+          "label": "Сколько лет?"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Зачем я?"
+        },
+        "color": "negative"
+      }
+    ],
+     [
+      {
+        "action": {
+          "type": "text",
+          "label": "ак ж?"
+        },
+        "color": "primary"
+      },
+      {
+        "action": {
+          "type": "text",
+          "label": "Зачем я?"
+        },
+        "color": "negative"
+      }
+    ]
+  ]
+}
