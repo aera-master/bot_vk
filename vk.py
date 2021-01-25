@@ -6,7 +6,7 @@ import vk_api #импортируем библиотеки для работы
 import time
 import random
 tok = os.environ.get('bot_token')
-vk_session = vk_api.VkApi(token = tok)    # создаем ссесси для работы и подключаем апи
+vk_session = vk_api.VkApi(token = 'eefe30e0d24a4824f03400c50d82b21899c954cc4b0d7b8e5e2815ccbe242387fb97825d48b931b811f04')    # создаем ссесси для работы и подключаем апи
 
 from vk_api.longpoll import VkEventType, VkLongPoll                  # импортируем нужные библиотеки модуля вк апи
 longpoll = VkLongPoll(vk_session)                                     # созаем переменную и в нее
